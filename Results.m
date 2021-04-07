@@ -15,7 +15,7 @@ z=linspace(3,val,3*val);
 result_aprox_2=[];
 % diferencia_2=[];
 for i=1:size(z,2)
-    aproximacion_2=P_x(z(i),domM);
+    aproximacion_2=P_x(z(i),domM,zeros_t);
     result_aprox_2=[result_aprox_2 aproximacion_2];
 end
 figure(1)
