@@ -1,3 +1,3 @@
-function J=myJ_x(x,domM)
-J=li_x(x)-sumzeroszeta(x,domM)+integral_1(x)-log(2);
+function J=myJ_x(x,domM,zeros_t)
+J=li_x(x)-sumzeroszeta(x,domM,zeros_t)+integral_1(x)-log(2);
 end
