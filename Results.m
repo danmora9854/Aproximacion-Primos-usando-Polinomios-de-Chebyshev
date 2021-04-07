@@ -4,7 +4,7 @@ w=linspace(1,val,val);
 % result_aprox = [];
 result_contadora=[];
 % diferencia = [];
-
+zeros_t=zerost(domM);
 for i=1:size(w,2)    
 %     aproximacion = myR_x(w(i));
 %     result_aprox = [result_aprox aproximacion];
